@@ -4,9 +4,8 @@ learn typescript
 
 npm ls - g => 글로벌로 깔려있는 모듈 확인
 npm i typescript - g => 타입스크립트 사용하기 위한 설치
-
-    < tsc 명령어 필요할 때 찾아보기 >
-        tsc--version => 설치된 버전 확인
+(tsc 명령어 필요할 때 찾아보기)
+tsc--version => 설치된 버전 확인
 tsc--init => tsconfig.json생성(자동세팅됨 다 지우고 필요할 때 추가 사용)
 
 tsconfig.json에 dom을 기입해주는거 대신
@@ -22,6 +21,7 @@ ______________
 
 tsconfig.json
 
+```
 "include": ["src/**/*.ts"], //src 밑에 있는 .ts로 되어 있는 모든 파일들을 포함시키겠다
   "compilerOptions": {
     "lib": ["ES2021"], //dom 대신  npm i @types/node를 설치해 console.log 인터페이스를 만들어줌
@@ -35,5 +35,5 @@ tsconfig.json
     "outDir": "dist",
     "strictNullChecks": true
   }
-
+```
 _____
