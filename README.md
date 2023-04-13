@@ -1,6 +1,9 @@
 # typescript
 learn typescript
 
+typescript를 사용하는 이유
++ 에러를 사전에 방지
++ 코드 가이드 및 자동완성으로 개발 생산성을 향상할 수 있다
 
 npm ls - g => 글로벌로 깔려있는 모듈 확인
 npm i typescript - g => 타입스크립트 사용하기 위한 설치
