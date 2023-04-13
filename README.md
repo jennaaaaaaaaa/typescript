@@ -22,18 +22,18 @@ ______________
 tsconfig.json
 
 ```
-"include": ["src/**/*.ts"], //src 밑에 있는 .ts로 되어 있는 모든 파일들을 포함시키겠다
-  "compilerOptions": {
-    "lib": ["ES2021"], //dom 대신  npm i @types/node를 설치해 console.log 인터페이스를 만들어줌
-    // esModuleInterop 속성이 위의 코드 처럼 true로 설정될 경우, ES6 모듈 사양을 준수하여 CommonJS 모듈을 가져올 수 있게 됨
-    // e.g. typescript-test.ts => import express from "express"
-    "esModuleInterop": true,
-    "target": "ES2021",
-    // rootDir : 컴파일될 타입스크립트 코드들의 위치를 명시
-    // "rootDir":"src,
-    // outDir : 컴파일 후 생성되는 js파일이 생성될 폴더명
-    "outDir": "dist",
-    "strictNullChecks": true
-  }
+  "include": ["src/**/*.ts"], //src 밑에 있는 .ts로 되어 있는 모든 파일들을 포함시키겠다
+    "compilerOptions": {
+      "lib": ["ES2021"], //dom 대신  npm i @types/node를 설치해 console.log 인터페이스를 만들어줌
+      // esModuleInterop 속성이 위의 코드 처럼 true로 설정될 경우, ES6 모듈 사양을 준수하여 CommonJS 모듈을 가져올 수 있게 됨
+      // e.g. typescript-test.ts => import express from "express"
+      "esModuleInterop": true,
+      "target": "ES2021",
+      // rootDir : 컴파일될 타입스크립트 코드들의 위치를 명시
+      // "rootDir":"src,
+      // outDir : 컴파일 후 생성되는 js파일이 생성될 폴더명
+      "outDir": "dist",
+      "strictNullChecks": true
+    }
 ```
 _____
